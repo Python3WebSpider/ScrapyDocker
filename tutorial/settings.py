@@ -66,7 +66,7 @@ ROBOTSTXT_OBEY = True
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'tutorial.pipelines.TextPipeline': 300,
-   'tutorial.pipelines.MongoPipeline': 400,
+   # 'tutorial.pipelines.MongoPipeline': 400,
 }
 
 
